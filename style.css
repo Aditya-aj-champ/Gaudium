@@ -1,0 +1,573 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* background-color: white; */
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 15px 30px 25px 30px;
+}
+
+.logo {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #ff136f;
+}
+
+.logo img {
+  height: 35px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+
+  /* background-color: #f0cbcb; */
+}
+
+.nav-a {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-a li {
+  margin-left: 20px;
+}
+
+.nav-a a {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 5px 10px;
+  transition: background-color 0.2s ease;
+}
+
+.nav-a a:hover {
+  background-color: #555;
+  border-radius: 5px;
+  color: white;
+}
+
+.header-Left {
+  display: inline;
+  margin-right: 30px;
+}
+
+.header-Left button {
+  padding: 2px 10px 2px 10px;
+  border-radius: 35px;
+  color: #ff136f;
+  background: white;
+  border-color: #ff136f;
+}
+
+.header-Left button:hover {
+  background-color: #555;
+  /* border-radius: 10px; */
+  color: white;
+}
+
+/* --------------------------------AboutUs section 1 -------------------------------------------------------- */
+
+.aboutUsSec1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0 25px 0;
+}
+
+.aboutUsSec1-left {
+  /* background-color: aqua; */
+  padding: 15px 40px 10px 30px;
+}
+
+.aboutUsSec1-left h1 {
+  color: #3e4590;
+  font-weight: 800;
+}
+
+.aboutUsSec1-left h5 {
+  font-weight: 700;
+}
+
+.aboutUsSec1-left h5 {
+  margin-bottom: 20px;
+}
+
+.aboutUsSec1-right {
+  /* background-color: aquamarine; */
+  margin-left: 40px;
+}
+
+.aboutUsSec1-right>img {
+  height: 310px;
+  border: 1.3px solid #ff136f;
+  padding: 5px;
+  border-radius: 18px;
+}
+
+/* --------------------------------AboutUs section 2 -------------------------------------------------------- */
+
+.aboutUSec2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.aboutUsSec2-card {
+  display: flex;
+  justify-content: center;
+  max-width: 600px;
+  /* border: 1.3px solid #FF136F; */
+  border-radius: 18px;
+  padding: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* background-color: #919191; */
+}
+
+.aboutUsSec2-card:hover {
+  background-color: #3e4590;
+  color: white;
+}
+
+.aboutUsSec2-card2:hover {
+  background-color: #ff136f;
+  color: white;
+}
+
+.card-right {
+  display: flex;
+  align-items: center;
+  border-radius: 18px;
+}
+
+.card-right img {
+  max-height: 270px;
+  background-position: center;
+  border-radius: 0 18px 18px 0;
+}
+
+.card-left {
+  padding: 25px;
+  border-radius: 18px 0 0 18px;
+}
+
+.card-left h1 {
+  color: #ff136f;
+  font-weight: 800;
+  background-color: transparent;
+}
+
+.card-left h5 {
+  color: black;
+  font-weight: 700;
+  background-color: transparent;
+}
+
+.card-left p {
+  margin-top: 15px;
+  color: #545454;
+  text-wrap: wrap;
+  background-color: transparent;
+}
+
+/* --------------------------------AboutUs section 3 -------------------------------------------------------- */
+.aboutUSec3-h3 {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.aboutUSec3-h3 h3 {
+  font-weight: 700;
+}
+
+.aboutUSec3 {
+  display: flex;
+  justify-content: center;
+}
+
+.valueCard {
+  position: relative;
+  background-color: white;
+  width: 280px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+/* Image at the top-right corner */
+.valueCard img {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  float: right;
+  width: 50px;
+  height: 50px;
+  /* background-color: transparent; */
+  /* object-fit:cover; */
+}
+
+/* Text content */
+.valueCard-text {
+  margin-top: 60px;
+}
+
+.valueCard h2 {
+  margin: 0 0 10px;
+  font-size: 1.5em;
+  color: #ff136f;
+}
+
+.valueCard p {
+  margin: 0;
+  color: #555;
+}
+
+/* Hover effect */
+.valueCard:hover {
+  /* border:1.6px solid #3E4590 ; */
+  color: white;
+  background-color: #3e4590;
+}
+
+/* --------------------------------AboutUs section 4 -------------------------------------------------------- */
+
+.aboutUsSec4 {
+  /* display: flex; */
+  margin: 30px -25px 30px -25px;
+  background-color: #3e4590;
+  padding: 20px 170px 20px 170px;
+}
+
+.chooseGaudium {
+  display: flex;
+  color: white;
+}
+
+.chooseGaudium h2 {
+  margin-right: 10px;
+  padding-right: 30px;
+  border-right: 2px solid white;
+}
+
+.chooseGaudium-offers {
+  margin-top: 38px;
+  color: white;
+}
+
+.aboutUSec4-left-Box {
+  display: flex;
+}
+
+.aboutUsSec4-msg {
+  margin: 20px 0 20px 0;
+}
+
+.aboutUsSec4-msg p {
+  color: #ff136f;
+  margin-bottom: -3px;
+}
+
+.aboutUsSec4-msg span {
+  color: white;
+}
+
+/* .aboutUSec4-Right-Box{
+    float: right;
+} */
+.aboutUSec4-Right-Box img {
+  height: 250px;
+  margin: 0 0 0 390px;
+  border-radius: 23px;
+  padding: 2px;
+  border: 1.6px solid #ff136f;
+}
+
+/* --------------------------------AboutUs section 5 -------------------------------------------------------- */
+
+.aboutUsSec5 {
+  display: flex;
+  margin: 0 -25px 0 -25px;
+}
+
+.aboutUsSec5Left img {
+  /* background-color: #555; */
+  max-height: 500px;
+  /* padding: 5px; */
+}
+
+.aboutUsSec5Right {
+  padding: 0 20px 0 20px;
+}
+
+.span1 {
+  color: #ff136f;
+  font-weight: 800;
+}
+
+/* --------------------------------AboutUs section 6 -------------------------------------------------------- */
+
+.aboutUsSec6 {
+  margin: 30px;
+  text-align: center;
+}
+
+.aboutUsSec6 span {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #1c1c1c;
+  border: 1px solid #cecece;
+  padding: 5px;
+}
+
+/* --------------------------------AboutUs section 7-------------------------------------------------------- */
+.aboutUsSec7-Heading {
+  margin-top: 10px;
+  text-align: center;
+  color: #ff136f;
+}
+
+/* --------------------------------AboutUs section 8-------------------------------------------------------- */
+
+.aboutUsSec8 {
+  display: flex;
+  margin: 40px 50px 40px 50px;
+  /* background-color: aqua; */
+  border-bottom: 2px solid #ff136f;
+  /* border-left:2px solid #FF136F; */
+}
+
+.aboutsSec8-right {
+  text-align: center;
+}
+
+.aboutsSec8-right img {
+  height: 350px;
+  margin-left: 40px;
+  text-align: center;
+}
+
+.aboutUsSec8-left {
+  padding-left: 50px;
+}
+
+.aboutUsSec8-left h3,
+h4 {
+  font-weight: 700;
+}
+
+.aboutUsSec8-left button {
+  border: 2px solid #ff136f;
+  padding: 5px;
+  border-radius: 10px;
+  color: #ff136f;
+  background-color: transparent;
+}
+
+/* --------------------------------AboutUs section 9-------------------------------------------------------- */
+.aboutUsSec9 {
+  background-image: url("/img/facilitiesBackgroundImg.jpg");
+  background-repeat: no-repeat;
+
+  color: white;
+  padding: 20px 70px 20px 70px;
+  margin: 0 -30px 0 -30px;
+}
+
+.aboutUsSec9 span {
+  color: #ff136f;
+}
+
+.facilities-heading h2,
+h4 {
+  font-weight: 800;
+}
+
+.aboutUsSec9-second {
+  display: flex;
+  box-sizing: content-box;
+}
+
+.aboutUsSec9-left {
+  border-right: 2px solid white;
+  padding: 30px 30px 0 0;
+}
+
+.aboutUsSec9-right {
+  padding-left: 30px;
+}
+
+/* --------------------------------AboutUs section 10-------------------------------------------------------- */
+.aboutUsSec10 {
+  margin: 30px 0 30px;
+}
+
+.patientTestimonials {
+  display: flex;
+
+  padding: 0 60px 0 60px;
+}
+
+.card1x {
+  border: none;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  height: min-content;
+  width: max-content;
+}
+
+/* .card1x:hover{
+    background-color: #FF136F; 
+    color: white;
+} */
+
+.aboutUsSec10Card-header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.aboutUsSec10Card-header img {
+  border-radius: 50%;
+  margin-bottom: 5px;
+  margin-right: 20px;
+}
+
+.rightLogo {
+  margin-left: 300px;
+}
+
+
+
+
+
+
+
+
+
+/* --------------------------------AboutUs section 15-------------------------------------------------------- */
+
+/* MAP  */
+
+.map-contact {
+  display: flex;
+  align-items: stretch;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.map,
+.contact {
+  width: 100%;
+  height: 400px;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.contact {
+  background-color: #3e4590;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.address h1 {
+  font-size: 30px;
+}
+
+.address p {
+  color: #cecece;
+}
+
+/* THINK ABOUT FAMILY */
+
+.think-about-family {
+  display: flex;
+  align-items: stretch;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.free-consultation {
+  width: 100%;
+  height: 200px;
+}
+
+.free-consultation p {
+  color: #1c1c1c;
+  font-size: 20px;
+}
+
+.free-consultation,
+h2,
+p,
+.post-ivf {
+  padding: 20px 0 0 20px;
+}
+
+.think-btn {
+  margin-left: 20px;
+  padding: 10px;
+  color: #f1f1f1;
+  background-color: #3e4590;
+  border: none;
+  border-radius: 8px;
+}
+
+.post-ivf {
+  width: 100%;
+  height: 200px;
+  color: #f1f1f1;
+  background-color: #ff136f;
+}
+
+
+/* --------------------------------AboutUs section 16-------------------------------------------------------- */
+
+
+/* footer */
+footer {
+  background-color: #3e4590;
+}
+
+footer h3 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.icon {
+  padding-right: 8px;
+}
+
+.Copyright {
+  padding: 10px;
+  background-color: #ff136f;
+  color: #ffffff;
+}
